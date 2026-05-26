@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
+  base: '/spring-ai-protal/',  // GitHub Pages 项目页需要
   plugins: [vue()],
   server: {
     headers: {
